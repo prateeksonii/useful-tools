@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CalSans';
+  src: url(/fonts/CalSans-SemiBold.woff2);
+}
+
+body {
+  @apply bg-dark text-white;
+}
+
+.card {
+  @apply text-2xl bg-darker cursor-pointer font-bold h-[200px] flex flex-col items-center justify-center shadow-card rounded-xl;
+}
